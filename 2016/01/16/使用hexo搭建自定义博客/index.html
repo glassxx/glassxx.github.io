@@ -59,14 +59,16 @@
 
 <meta name="description" content="前言：此前一直有想法去写博客，但一直没有找到满意的地方安定下来，偶然得知的hexo+github免费搭建个性博客，可以使用很酷的方式去写博客，花了两天时间搜集资料搭建，终于完工，按照他人的教程，碰到过一些坑，有些是因为描述不完整，有些是因为教程hexo、git等版本不一致，环境不一样。这些经验不敢独享，写出来希望能够帮到他人
 注意：此教程仅针对在windows环境
-###一、准备工作：安装软件">
+一、准备工作：安装软件
+git安">
 <meta property="og:type" content="article">
 <meta property="og:title" content="使用hexo搭建自定义博客">
 <meta property="og:url" content="http://glassxx.github.io/2016/01/16/使用hexo搭建自定义博客/index.html">
 <meta property="og:site_name" content="glassxx">
 <meta property="og:description" content="前言：此前一直有想法去写博客，但一直没有找到满意的地方安定下来，偶然得知的hexo+github免费搭建个性博客，可以使用很酷的方式去写博客，花了两天时间搜集资料搭建，终于完工，按照他人的教程，碰到过一些坑，有些是因为描述不完整，有些是因为教程hexo、git等版本不一致，环境不一样。这些经验不敢独享，写出来希望能够帮到他人
 注意：此教程仅针对在windows环境
-###一、准备工作：安装软件">
+一、准备工作：安装软件
+git安">
 <meta property="og:image" content="http://7xq069.com1.z0.glb.clouddn.com/%E5%AE%89%E8%A3%85hexo.png">
 <meta property="og:image" content="http://7xq069.com1.z0.glb.clouddn.com/%E5%AE%89%E8%A3%85%E5%AE%8C%E6%88%90.png">
 <meta property="og:image" content="http://7xq069.com1.z0.glb.clouddn.com/%E6%96%B0%E5%BB%BA%E4%BB%93%E5%BA%93.png">
@@ -78,12 +80,13 @@
 <meta property="og:image" content="http://7xq069.com1.z0.glb.clouddn.com/SSH%E8%AE%BE%E7%BD%AE.png">
 <meta property="og:image" content="http://7xq069.com1.z0.glb.clouddn.com/%E6%B7%BB%E5%8A%A0ssh%20key.png">
 <meta property="og:image" content="http://7xq069.com1.z0.glb.clouddn.com/%E9%AA%8C%E8%AF%81ssh.png">
-<meta property="og:updated_time" content="2016-01-16T11:56:56.094Z">
+<meta property="og:updated_time" content="2016-01-16T12:00:35.676Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用hexo搭建自定义博客">
 <meta name="twitter:description" content="前言：此前一直有想法去写博客，但一直没有找到满意的地方安定下来，偶然得知的hexo+github免费搭建个性博客，可以使用很酷的方式去写博客，花了两天时间搜集资料搭建，终于完工，按照他人的教程，碰到过一些坑，有些是因为描述不完整，有些是因为教程hexo、git等版本不一致，环境不一样。这些经验不敢独享，写出来希望能够帮到他人
 注意：此教程仅针对在windows环境
-###一、准备工作：安装软件">
+一、准备工作：安装软件
+git安">
 
 
 
@@ -288,8 +291,7 @@
       
         <p><strong>前言：此前一直有想法去写博客，但一直没有找到满意的地方安定下来，偶然得知的hexo+github免费搭建个性博客，可以使用很酷的方式去写博客，花了两天时间搜集资料搭建，终于完工，按照他人的教程，碰到过一些坑，有些是因为描述不完整，有些是因为教程hexo、git等版本不一致，环境不一样。这些经验不敢独享，写出来希望能够帮到他人</strong></p>
 <p><strong>注意：此教程仅针对在windows环境</strong></p>
-<p>###一、准备工作：安装软件</p>
-<ul>
+<h3 id="u4E00_u3001_u51C6_u5907_u5DE5_u4F5C_uFF1A_u5B89_u88C5_u8F6F_u4EF6"><a href="#u4E00_u3001_u51C6_u5907_u5DE5_u4F5C_uFF1A_u5B89_u88C5_u8F6F_u4EF6" class="headerlink" title="一、准备工作：安装软件"></a>一、准备工作：安装软件</h3><ul>
 <li>git安装，<a href="https://git-scm.com/" target="_blank" rel="external">点击这里</a>跳转到官网下载，之后直接安装就可以。</li>
 <li>Node.js安装，<a href="https://nodejs.org/en/" target="_blank" rel="external">点击这里</a>跳转到官网下载，有LTS和Stable版本，如果不确定，随便选定下载下来安装即可。<blockquote>
 <p>注：如果不懂，那就两个软件按照默认设置，一路next下去就好。</p>
@@ -306,7 +308,7 @@
 <center><br><img src="http://7xq069.com1.z0.glb.clouddn.com/%E5%AE%89%E8%A3%85%E5%AE%8C%E6%88%90.png" alt=""><br></center>
 
 <p>如果你能正常看到，那么恭喜你，已经做好准备工作了。</p>
-<p>###二、配置github<br>我们的博客是以github为载体的，它提供了page功能，配置遵循以下步骤：</p>
+<h3 id="u4E8C_u3001_u914D_u7F6Egithub"><a href="#u4E8C_u3001_u914D_u7F6Egithub" class="headerlink" title="二、配置github"></a>二、配置github</h3><p>我们的博客是以github为载体的，它提供了page功能，配置遵循以下步骤：</p>
 <ol>
 <li><p>注册：去<a href="https://github.com/" target="_blank" rel="external">github官网</a>注册一个账号，之后在邮箱中确认注册（一定要确认注册，不然别到时候使用不了gh-pages）。如果不会注册，那。。就去找找教程吧。</p>
 </li>
@@ -361,7 +363,7 @@
 <center><br><img src="http://7xq069.com1.z0.glb.clouddn.com/%E9%AA%8C%E8%AF%81ssh.png" alt="完成SSH key配置"><br></center>
 
 
-<p>###三、配置HEXO<br>选定一个文件夹存放你的博客以及相关文件(我这里以e:/hexoblog文件夹为例)，在这个文件夹的空白处右击，选择Git Bash Here，在弹出来的框里面，输入git init，之后，会给你建立很多文件夹，先不管它们有什么用处，之后运行npm install，它会给你安装所需要的依赖(安装会有warn，不需要理会，等它自己装完即可)。</p>
+<h3 id="u4E09_u3001_u914D_u7F6EHEXO"><a href="#u4E09_u3001_u914D_u7F6EHEXO" class="headerlink" title="三、配置HEXO"></a>三、配置HEXO</h3><p>选定一个文件夹存放你的博客以及相关文件(我这里以e:/hexoblog文件夹为例)，在这个文件夹的空白处右击，选择Git Bash Here，在弹出来的框里面，输入git init，之后，会给你建立很多文件夹，先不管它们有什么用处，之后运行npm install，它会给你安装所需要的依赖(安装会有warn，不需要理会，等它自己装完即可)。</p>
 <p>接下来还是在e:/hexoblog目录下，打开_config.yml文件，配置最底下的deploy项，配置成这样子，依葫芦画瓢吧，将glassxx改成你自己的github用户名（注意，冒号后面有空格）。<br>deploy:</p>
 <blockquote>
 <p>type: git<br>repository: <a href="https://github.com/glassxx/glassxx.github.io.git" target="_blank" rel="external">https://github.com/glassxx/glassxx.github.io.git</a><br>branch: master</p>
@@ -370,7 +372,7 @@
 <p>这是帮你生成静态页面，之后，输入：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure></p>
 <p>这是在将静态页面提交到github上去，按照提示输入用户名、密码，就OK。过一段时间，等提交成功了，你的第一篇博客就成功了。访问yourname.github.io了，你就能看到你的博客(如果没看到，就稍等会，github那边可能会有一点延迟，有些据说要十来分钟之后才能看到)。</p>
 <p>之后能够方便地写博客，只需要在你hexoblog/source/_posts文件夹下新增一个markdown文件就OK，具体怎么写，参考这里面默认的那个文件。</p>
-<p>###四、进阶：选择一个好的主题<br>主题有很多，这里有个<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">主题列表</a>可以参考，有demo提供预览。</p>
+<h3 id="u56DB_u3001_u8FDB_u9636_uFF1A_u9009_u62E9_u4E00_u4E2A_u597D_u7684_u4E3B_u9898"><a href="#u56DB_u3001_u8FDB_u9636_uFF1A_u9009_u62E9_u4E00_u4E2A_u597D_u7684_u4E3B_u9898" class="headerlink" title="四、进阶：选择一个好的主题"></a>四、进阶：选择一个好的主题</h3><p>主题有很多，这里有个<a href="https://github.com/hexojs/hexo/wiki/Themes" target="_blank" rel="external">主题列表</a>可以参考，有demo提供预览。</p>
 <p>我个人选择next主题，于是输入：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next.git themes/Next</span><br></pre></td></tr></table></figure></p>
 <p>这里就不多说了，简单地git克隆。之后<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> themes/Next</span><br><span class="line">$ git pull</span><br></pre></td></tr></table></figure></p>
 <p>接着打开在e:/hexoblog下的_config.yml文件，并将theme字段改成 ：</p>
@@ -379,7 +381,7 @@
 </blockquote>
 <p>此时，你再重复之前的操作，使用以下命令：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></p>
 <p>待执行完毕之后，你刷新yourname.github.io试试。</p>
-<p>###五、其他<br>其他诸如评论、样式等就是自己去精雕细琢的东西了，这里给出<a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="external">hexo的官方文档</a>，如果使用Next主题，有<a href="http://theme-next.iissnan.com/theme-settings.html#自定义_LOGO_以及主题图标" target="_blank" rel="external">Next的官方文档</a>，如果不懂怎么配置，可以去看看，都是中文的哦。</p>
+<h3 id="u4E94_u3001_u5176_u4ED6"><a href="#u4E94_u3001_u5176_u4ED6" class="headerlink" title="五、其他"></a>五、其他</h3><p>其他诸如评论、样式等就是自己去精雕细琢的东西了，这里给出<a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="external">hexo的官方文档</a>，如果使用Next主题，有<a href="http://theme-next.iissnan.com/theme-settings.html#自定义_LOGO_以及主题图标" target="_blank" rel="external">Next的官方文档</a>，如果不懂怎么配置，可以去看看，都是中文的哦。</p>
 <p><strong>好了，第一篇博客写完了，希望你能有所收获</strong></p>
 
       
@@ -539,7 +541,7 @@
               
             
             
-              <p class="post-toc-empty">此文章未包含目录</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#u4E00_u3001_u51C6_u5907_u5DE5_u4F5C_uFF1A_u5B89_u88C5_u8F6F_u4EF6"><span class="nav-number">1.</span> <span class="nav-text">一、准备工作：安装软件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u4E8C_u3001_u914D_u7F6Egithub"><span class="nav-number">2.</span> <span class="nav-text">二、配置github</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u4E09_u3001_u914D_u7F6EHEXO"><span class="nav-number">3.</span> <span class="nav-text">三、配置HEXO</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u56DB_u3001_u8FDB_u9636_uFF1A_u9009_u62E9_u4E00_u4E2A_u597D_u7684_u4E3B_u9898"><span class="nav-number">4.</span> <span class="nav-text">四、进阶：选择一个好的主题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#u4E94_u3001_u5176_u4ED6"><span class="nav-number">5.</span> <span class="nav-text">五、其他</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">
